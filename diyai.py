@@ -27,8 +27,8 @@ import cv2
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras import layers, models
-from tkinter import Tk, filedialog, simpledialog, Button, Label, messagebox, Toplevel, StringVar, OptionMenu
-from tkinter.ttk import Combobox
+from tkinter import Tk, ttk, filedialog, simpledialog, Button, Label, messagebox, Toplevel, StringVar, OptionMenu
+from tkinter.ttk import Label, Button, Combobox, Style
 
 # Global variables
 IMAGE_SIZE = 224
@@ -279,8 +279,8 @@ def predict_image():
             else:
                 messagebox.showwarning("Selection Error", "Please select a class.")
 
-        Button(feedback_window, text="Confirm", command=on_correct_confirm).pack(pady=10)
-        Button(feedback_window, text="Cancel", command=feedback_window.destroy).pack()
+        ttk.Button(feedback_window, text="Confirm", command=on_correct_confirm).pack(pady=10)
+        ttk.Button(feedback_window, text="Cancel", command=feedback_window.destroy).pack()
 
     # Function Button - User does not add image
     def on_cancel():
@@ -288,23 +288,33 @@ def predict_image():
         feedback_window.destroy()
 
     # Buttons for feedback
-    Button(feedback_window, text="Yes, correct", command=on_confirm).pack(side="left", padx=10, pady=10)
-    Button(feedback_window, text="No, select correct class", command=on_correct).pack(side="left", padx=10, pady=10)
-    Button(feedback_window, text="Cancel", command=on_cancel).pack(side="left", padx=10, pady=10)
+    ttk.Button(feedback_window, text="Yes, correct", command=on_confirm).pack(side="left", padx=10, pady=10)
+    ttk.Button(feedback_window, text="No, select correct class", command=on_correct).pack(side="left", padx=10, pady=10)
+    ttk.Button(feedback_window, text="Cancel", command=on_cancel).pack(side="left", padx=10, pady=10)
 
 
 # GUI setup via TK library
 def create_ui():
     window = Tk()
     window.title("DIYai")
+    window.geometry("400x400")
 
-    label = Label(window, text="DIYai", font=("Arial", 16))
+    # Modern styling
+    style = ttk.Style()
+    style.theme_use('alt')  # Or try: 'alt', 'default', 'classic'
+    window.configure(bg="#3b3b3b")
+
+    # Customize fonts and colors
+    style.configure('TButton', font=('Arial', 12), padding=6)
+    style.configure('TLabel', font=('Arial', 14), padding=5)
+    style.configure('TCombobox', padding=5)
+    label = Label(window, text="DIYai", font=("Arial", 18))
     label.pack(pady=20)
 
-    Button(window, text="Create New Class", command=create_class_interface).pack(pady=10)
-    Button(window, text="Upload Images", command=upload_images_interface).pack(pady=10)
-    Button(window, text="Train Model", command=train_model).pack(pady=10)
-    Button(window, text="Predict Image", command=predict_image).pack(pady=10)
+    ttk.Button(window, text="Create New Class", command=create_class_interface).pack(pady=10)
+    ttk.Button(window, text="Upload Images", command=upload_images_interface).pack(pady=10)
+    ttk.Button(window, text="Train Model", command=train_model).pack(pady=10)
+    ttk.Button(window, text="Predict Image", command=predict_image).pack(pady=10)
 
     window.mainloop()
 
