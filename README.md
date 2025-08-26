@@ -1,4 +1,4 @@
-# ​​ Create own Model and DataSet App - Great for learning App (with GUI)
+# ​​ Create own Model and DataSet App - Great for learning (with GUI)
 
 A desktop-based image classification app built using **TensorFlow**, **OpenCV**, and **Tkinter**. This user-friendly GUI tool allows you to create custom datasets, train models, and predict images—all without writing code.
 
@@ -45,7 +45,7 @@ python diyai.py
 - Click "Train Model"
 
 - Click "Predict Image" and add image to run prediction.
-=======
+
 - Work in Progress... 
 -
 ---
