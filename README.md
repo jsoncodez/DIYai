@@ -40,11 +40,11 @@ python diyai.py
 ## 📸 Example Screenshots
 
 ```markdown
-![Main UI](https://github.com/jsoncodez/DIYai/blob/main/images/screenshots/diyai-ui.png)
-![Prediction Screen](https://github.com/jsoncodez/DIYai/blob/main/images/screenshots/diyai-createclass.png)
-![Confirmation Class Creation](https://github.com/jsoncodez/DIYai/blob/main/images/screenshots/diyai-createclassconfirm.png)
-![Add Images to DataSet](https://github.com/jsoncodez/DIYai/blob/main/images/screenshots/diyai-selectclass.png)
-![Select Images](https://github.com/jsoncodez/DIYai/blob/main/images/screenshots/diyai-selectphotos.png)
+![Main UI](https://github.com/jsoncodez/DIYai/images/screenshots/diyai-ui.png)
+![Prediction Screen](https://github.com/jsoncodez/DIYai/images/screenshots/diyai-createclass.png)
+![Confirmation Class Creation](https://github.com/jsoncodez/DIYai/images/screenshots/diyai-createclassconfirm.png)
+![Add Images to DataSet](https://github.com/jsoncodez/DIYai/images/screenshots/diyai-selectclass.png)
+![Select Images](https://github.com/jsoncodez/DIYai/images/screenshots/diyai-selectphotos.png)
 
 ---
 
