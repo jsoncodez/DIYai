@@ -27,5 +27,5 @@ cd diyai
 pip install -r requirements.txt
 
 
-python image-ml.py
+python diyai.py
 
