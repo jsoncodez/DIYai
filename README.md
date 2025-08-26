@@ -35,16 +35,19 @@ python diyai.py
 
 - Work in Progress... 
 -
+![Uploading image.png…]()
 
 
 ## 📸 Example Screenshots
 
 ```markdown
-![Main UI](https://github.com/jsoncodez/DIYai/images/screenshots/diyai-ui.png)<img width="507" height="461" alt="diyai-ui" src="https://github.com/user-attachments/assets/90dfb716-1c10-4a96-bf4a-b56aef31abe2" />
+![Main UI](https://github.com/jsoncodez/DIYai/images/screenshots/diyai-ui.png)
+<img width="507" height="461" alt="diyai-ui" src="https://github.com/user-attachments/assets/90dfb716-1c10-4a96-bf4a-b56aef31abe2" />
 
 ![Prediction Screen](https://github.com/jsoncodez/DIYai/images/screenshots/diyai-createclass.png)<img width="307" height="239" alt="diyai-selectclass" src="https://github.com/user-attachments/assets/4cd0451b-2f82-4123-ac24-f1b31eb4df21" />
 
 ![Confirmation Class Creation](https://github.com/jsoncodez/DIYai/images/screenshots/diyai-createclassconfirm.png)<img width="290" height="204" alt="diyai-createclassconfirm" src="https://github.com/user-attachments/assets/8fc542fa-6529-451e-aa6a-32917da61ba0" />
+<img width="523" height="314" alt="image" src="https://github.com/user-attachments/assets/a25e6dd1-9892-47c4-aedc-b36bff2ad53b" />
 
 
 ![Add Images to DataSet](https://github.com/jsoncodez/DIYai/images/screenshots/diyai-selectclass.png)
