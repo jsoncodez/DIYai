@@ -11,7 +11,7 @@ A desktop-based image classification app built using **TensorFlow**, **OpenCV**,
 - Train a CNN or pretrained model (e.g., MobileNetV2)
 - Predict new images with class probabilities
 - Correct misclassifications and add feedback to dataset
-- Fine-tune the model without full retraining
+- Fine-tune the model
 - Simple GUI via Tkinter for ease of use
 
 ---
@@ -33,19 +33,18 @@ python diyai.py
 
 ## 💡 Usage Directions
 
-- 
-- Use clear, centered images for better model accuracy.
-- You can correct a misclassified image after prediction, and the app will let you save it to the right class folder.
-- For better performance, retrain the model occasionally with newly added images.
-- 
+- Work in Progress... 
+-
+
+
 ## 📸 Example Screenshots
 
 ```markdown
-![Main UI](images/screenshots/diyai-ui.png)
-![Prediction Screen](images/screenshots/diyai-createclass.png)
-![Confirmation Class Creation](images/screenshots/diyai-createclassconfirm.png)
-![Add Images to DataSet](images/screenshots/diyai-selectclass.png)
-![Select Images](images/screenshots/diyai-selectphotos.png)
+![Main UI](https://github.com/jsoncodez/DIYai/blob/main/images/screenshots/diyai-ui.png)
+![Prediction Screen](https://github.com/jsoncodez/DIYai/blob/main/images/screenshots/diyai-createclass.png)
+![Confirmation Class Creation](https://github.com/jsoncodez/DIYai/blob/main/images/screenshots/diyai-createclassconfirm.png)
+![Add Images to DataSet](https://github.com/jsoncodez/DIYai/blob/main/images/screenshots/diyai-selectclass.png)
+![Select Images](https://github.com/jsoncodez/DIYai/blob/main/images/screenshots/diyai-selectphotos.png)
 
 ---
 
