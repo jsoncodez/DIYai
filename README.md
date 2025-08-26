@@ -42,6 +42,7 @@ python diyai.py
 ## 📸 Example Screenshots
 
 ```markdown
+<img width="792" height="720" alt="image" src="https://github.com/user-attachments/assets/52614d9a-906e-424c-8d00-eed92ba2b070" />
 
 
 
