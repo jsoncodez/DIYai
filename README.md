@@ -33,6 +33,7 @@ python diyai.py
 
 ## 💡 Usage Directions
 
+<<<<<<< Updated upstream
 - Work in Progress...
   
 <img width="792" height="720" alt="image" src="https://github.com/user-attachments/assets/42e127a3-456f-41d0-b648-2a5a1b359e80" />
@@ -44,16 +45,10 @@ python diyai.py
 - Click "Train Model"
 
 - Click "Predict Image" and add image to run prediction.
-
-
-## 📸 Example Screenshots
-
-```markdown
-<img width="792" height="720" alt="image" src="https://github.com/user-attachments/assets/52614d9a-906e-424c-8d00-eed92ba2b070" />
-
-
-
-```
+=======
+- Work in Progress... 
+-
+---
 
 
 ## 💡 Usage Tips
