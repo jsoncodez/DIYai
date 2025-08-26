@@ -20,8 +20,8 @@ A desktop-based image classification app built using **TensorFlow**, **OpenCV**,
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/jsoncodez/BYOai.git
-cd image-classifier
+git clone https://github.com/jsoncodez/diyai.git
+cd diyai
 
 
 pip install -r requirements.txt
