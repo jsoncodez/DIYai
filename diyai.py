@@ -26,14 +26,21 @@ import os
 import cv2
 import numpy as np
 import tensorflow as tf
+import tkinter as tk
 from tensorflow.keras import layers, models
 from tkinter import Tk, ttk, filedialog, simpledialog, Button, Label, messagebox, Toplevel, StringVar, OptionMenu
 from tkinter.ttk import Label, Button, Combobox, Style
+
+
+
+
 
 # Global variables
 IMAGE_SIZE = 224
 MODEL = None
 DATASET_DIR = "dataset"
+
+
 
 
 # Create dataset root if not exists
@@ -299,16 +306,20 @@ def create_ui():
     window.title("DIYai")
     window.geometry("400x400")
 
+    window.iconbitmap("assets/diyai.ico")
+
     # Modern styling
     style = ttk.Style()
     style.theme_use('alt')  # Or try: 'alt', 'default', 'classic'
     window.configure(bg="#3b3b3b")
 
-    # Customize fonts and colors
+    #font and colors and title image
+
     style.configure('TButton', font=('Arial', 12), padding=6)
     style.configure('TLabel', font=('Arial', 14), padding=5)
     style.configure('TCombobox', padding=5)
     label = Label(window, text="DIYai", font=("Arial", 18))
+
     label.pack(pady=20)
 
     ttk.Button(window, text="Create New Class", command=create_class_interface).pack(pady=10)
